@@ -3,9 +3,9 @@
   "version": "0.1.0-testing",
   "description": "Utilities for generating randomness",
   "dependencies": [
-    { 
-        "name": "vcpkg-msbuild",
-        "host": true
+    {
+      "name": "vcpkg-msbuild",
+      "host": true
     }
-    ]
+  ]
 }
