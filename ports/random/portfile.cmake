@@ -11,11 +11,12 @@ vcpkg_from_github(
 vcpkg_install_msbuild(
     SOURCE_PATH "${SOURCE_PATH}"
     PROJECT_SUBPATH "random.sln")
+    
+vcpkg_copy_pdbs()
 
 file(
-    GLOB HEADER_FILES "${SOURCE_PATH}/*.h")
+    GLOB HEADER_FILES "${SOURCE_PATH}/random/*.h")
 
 file(
     INSTALL ${HEADER_FILES}
     DESTINATION ${CURRENT_PACKAGES_DIR}/include/random)
-
