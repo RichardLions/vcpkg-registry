@@ -1,5 +1,11 @@
 {
   "name": "random",
   "version": "0.1.0-testing",
-  "description": "Utilities for generating randomness"
+  "description": "Utilities for generating randomness",
+  "dependencies": [
+    { 
+        "name": "vcpkg-msbuild",
+        "host": true
+    }
+    ]
 }

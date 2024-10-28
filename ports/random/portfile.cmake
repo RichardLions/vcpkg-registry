@@ -8,10 +8,9 @@ vcpkg_from_github(
     HEAD_REF master
 )
 
-vcpkg_cmake_configure(
+vcpkg_install_msbuild(
     SOURCE_PATH "${SOURCE_PATH}"
+    PROJECT_SUBPATH "random.sln"
 )
 
-vcpkg_cmake_install()
-
-vcpkg_cmake_config_fixup(PACKAGE_NAME "random")
+vcpkg_copy_pdbs()
