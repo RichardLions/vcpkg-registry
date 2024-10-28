@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO libsdl-org/SDL
     REF "preview-3.1.3"
-    SHA512 0
+    SHA512 60c489fbec3e9f5cbde57520edf20257c27facab3c44e8e9b719743ee5035e80221eb9403016bfbc696dfab834f955a81569539b3859171afafb8970b3a7a4dd
     HEAD_REF main
 )
 
