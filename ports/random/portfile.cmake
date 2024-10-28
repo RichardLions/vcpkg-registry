@@ -5,7 +5,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO RichardLions/random
     REF "v0.1.0-testing"
-    SHA512 1099f1257531e5ddb8dbad12a2d8c66f5fdc8463106af87c0ec76cf62ee3c3a6afc7d82d1605501711ca5ae2e6cae4c3fa7221b14518ace2b3b06b5ee15c5e7c
+    SHA512 0f0266163e92a3108d022055c211cba073bca3b2767faf63b2f96b5b8378ddfc0dec09f6b2babc4b1afcb9873807bf0b3d65f500af8cf76d2e2b0515fc11e1c0
     HEAD_REF master)
 
 vcpkg_install_msbuild(
