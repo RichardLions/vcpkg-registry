@@ -1,5 +1,5 @@
 {
   "name": "random",
-  "version": "v0.1.0-testing",
+  "version": "0.1.0-testing",
   "description": "Utilities for generating randomness"
 }
