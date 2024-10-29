@@ -29,7 +29,7 @@ Using the commit hash from git log as the baseline for any vcpkg-configuration.j
   "repository": "https://github.com/RichardLions/vcpkg-registry",
   "baseline": "[Commit hash here]",
   "packages": [
-    [Package names here]
+    "[Package names here]"
   ]
 }
 ```
