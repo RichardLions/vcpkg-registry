@@ -12,8 +12,6 @@ vcpkg_install_msbuild(
     SOURCE_PATH "${SOURCE_PATH}"
     PROJECT_SUBPATH "random.sln"
     USE_VCPKG_INTEGRATION)
-    
-vcpkg_copy_pdbs()
 
 file(
     GLOB HEADER_FILES "${SOURCE_PATH}/random/*.h")
@@ -21,3 +19,12 @@ file(
 file(
     INSTALL ${HEADER_FILES}
     DESTINATION ${CURRENT_PACKAGES_DIR}/include/random)
+    
+file(
+    GLOB SOURCE_FILES "${SOURCE_PATH}/random/*.cpp")
+    
+file(
+    INSTALL ${SOURCE_FILES}
+    DESTINATION ${CURRENT_PACKAGES_DIR}/source/random)
+    
+ 
