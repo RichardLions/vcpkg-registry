@@ -1,3 +1,5 @@
+set(VCPKG_POLICY_SKIP_COPYRIGHT_CHECK enabled)
+
 vcpkg_check_linkage(
     ONLY_STATIC_LIBRARY)
 
