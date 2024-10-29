@@ -4,10 +4,12 @@
 
 Delete folders in versions/.
 
-Set baseline.json to:<br>
-{<br>
-  "default": {}<br>
-}<br>
+Set baseline.json to:
+```json
+{
+  "default": {}
+}
+```
 
 Open a termeral in the vcpkg-registry folder and run:<br>
 git add ./<br>
@@ -20,15 +22,17 @@ git commit -m "Updated setup"<br>
 git push<br>
 git log -n 1<br>
 
-Using the commit hash from the git log as the baseline for the vcpkg-configuration.json in projects that want to use this vcpkg-registry:<br>
-{<br>
-  "kind": "git",<br>
-  "repository": "https://github.com/RichardLions/vcpkg-registry",<br>
-  "baseline": "[Commit hash here]",<br>
-  "packages": [<br>
-    [Package names here]<br>
-  ]<br>
-}<br>
+Using the commit hash from git log as the baseline for any vcpkg-configuration.jsons in projects that want to use this vcpkg-registry:
+```json
+{
+  "kind": "git",
+  "repository": "https://github.com/RichardLions/vcpkg-registry",
+  "baseline": "[Commit hash here]",
+  "packages": [
+    [Package names here]
+  ]
+}
+```
 
 ### TODO
 - [ ] Learn a cleaner way of updating portfiles
