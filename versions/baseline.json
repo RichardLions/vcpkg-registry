@@ -1,3 +1,12 @@
 {
-  "default": {}
+  "default": {
+    "random": {
+      "baseline": "0.1.0-testing",
+      "port-version": 0
+    },
+    "sdl3": {
+      "baseline": "3.1.6-preview",
+      "port-version": 0
+    }
+  }
 }
