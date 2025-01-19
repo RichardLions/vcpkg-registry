@@ -1,12 +1,3 @@
 {
-  "default": {
-    "random": {
-      "baseline": "0.1.0-testing",
-      "port-version": 0
-    },
-	"fsm": {
-      "baseline": "0.1.0",
-      "port-version": 0
-    }
-  }
+  "default": {}
 }
