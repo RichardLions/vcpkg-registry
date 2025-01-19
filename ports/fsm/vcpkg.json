@@ -1,0 +1,11 @@
+{
+  "name": "fsm",
+  "version": "0.1.0",
+  "description": "Finite State Machine",
+  "dependencies": [
+    {
+      "name": "vcpkg-msbuild",
+      "host": true
+    }
+  ]
+}
